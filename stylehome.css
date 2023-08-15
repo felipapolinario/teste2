@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    width: auto;
+    font-family: sans-serif;
+}
+header{
+    height: 60px;
+    background-color: #7b0404;
+    color: white;
+}
+.container-header{
+    justify-content: space-between;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+.botao-header{
+    padding-left: 50px;
+}
+.imagem-principal{
+    background-color: #242424;
+    height: 450px;
+}
+.marcas h1{
+    color: #7b0404;
+}
+.marcas{
+    margin: auto;
+    width: 80%;
+    padding: 1%;
+}
+.imagem-marca{
+    height: 90px;
+    width: 160px;
+    background-color: white;
+    border: rgb(221, 221, 221) solid 2px;
+    box-shadow: 0px 4px 5px rgb(112, 112, 112);
+    border-radius: 15px;
+}
+.logo-marcas{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+}
+.container-conteudo{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.container-filtro{
+    background-color: #ccc;
+    border-radius: 15px;
+    padding: 1%;
+    width: 17%;
+}
+.container-filtro h2, ul{
+    color: #242424;
+}
+.container-filtro h3{
+    color: #7b0404;
+    margin-top: 10px;
+}
+.container-filtro label{
+    display: block;
+    flex-direction: column;
+    padding: 2%;
+}
+.container-lista-carro{
+    width: 75%;
+    background-color: #ccc;
+}
