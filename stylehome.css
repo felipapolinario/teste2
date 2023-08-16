@@ -59,6 +59,10 @@ header{
 .container-filtro h2, ul{
     color: #242424;
 }
+.container-titulo-filtro{
+    display: flex;
+    justify-content: center;
+}
 .container-filtro h3{
     color: #7b0404;
     margin-top: 10px;
